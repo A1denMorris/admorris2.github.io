@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+img, object, embed, video {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-top: -78px;
+}
+
+
+.header {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 306px;
+    color: white;
+    background-color: black;
+    height: 0px;
+    border-color: black;
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    border-radius: 28px 10px;
+}
+.header_box {
+    height: 300px;
+    width: auto;
+    background-image: url(assets/server_bank.jpg);
+    background-position: 48% 53%;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+}
+.menu {
+    font-size: 15px;
+    background-color: #D0C29E;
+    text-align: center;
+    color: #F9F4F4;
+    border-bottom-color: #000000;
+    border-style: solid;
+    border-radius: 20px;
+    display: block;
+    top: 3px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: auto;
+    font-variant: small-caps;
+}
+.coreText {
+    font-family: "Times New Roman", Vivaldi;
+    font-size: 20px;
+    height: auto;
+    margin-left: 50px;
+    padding-left: 0px;
+    margin-right: 50px;
+    padding-right: 8px;
+    background-color: white;
+    margin-top: 35px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 50px;
+    text-align: left;
+    width: auto;
+}
+.body {
+    background-color: #5A5757;
+    border-style: solid;
+    border-width: thick;
+		
+}
+.img_float_l {
+    float: left;
+    padding-right: 14px;
+    border-style: none;
+    border-collapse: collapse;
+    border-width: thin;
+    margin-top: 77px;
+}
+.img_float_r {
+    float: right;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.resume_pic {
+    float: left;
+    padding-top: 88px;
+}
+
+div.InfoForm {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px 10px;
+	
+}
+
+div.InfoForm > * {
+	flex: 1 1 150px;
+}
+
+textarea {
+	margin-top: 25px;
+}
+#excode {
+    margin: auto;
+    padding-left: 40px;
+}
+
+.stars {
+	text-align: center;
+}
+
+#para {
+	text-align: center;
+}
+
+#para2 {
+	text-align: center;
+}
+
+.listformat {
+    margin-left: 50px;
+    height: 30px;
+}
+
+.qualpic {
+    float: left;
+    padding-right: 14px;
+    border-width: thin;
+    margin-top: 80px;
+    list-style-type: none;
+}
+
+.list_text {
+    list-style-type: none;
+    height: 80px;
+}
+
+#MTA_pic {
+    margin-top: 104px;
+}
+
+#mycodepic {
+    float: left;
+    padding-right: 14px;
+    border-style: none;
+    border-collapse: collapse;
+    border-width: thin;
+    margin-top: 77px;
+}
